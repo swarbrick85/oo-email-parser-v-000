@@ -7,10 +7,15 @@ class EmailParser
   end 
   
   def parse 
-    
-    
-    
-    
+    a = @list.split(" ")
+    c =[]
+    a.each do |piece|
+      b = piece.split(",")
+      b.each do |address|
+        c << address 
+      end 
+    end 
+    c.unique 
   end 
   
   
