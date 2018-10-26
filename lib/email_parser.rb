@@ -1,6 +1,12 @@
-def parse 
+class EmailParser 
   
   
+  def parse 
+    
+    
+    
+    
+  end 
   
   
   
