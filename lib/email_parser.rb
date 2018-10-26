@@ -15,7 +15,7 @@ class EmailParser
         c << address 
       end 
     end 
-    c.unique 
+    c.uniq 
   end 
   
   
